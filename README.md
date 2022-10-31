@@ -2,7 +2,7 @@
 
 The implementation of the paper: *"Nezha: Exploiting Concurrency for Transaction Processing in DAG-based Blockchains" ICDCS'22*
 
-Nezha is the first efficient concurrency control mechanism towards DAG-based blockchains. It contians an address-based conflict graph (ACG) while incorporating address dependencies as edges to capture all conflicting transactions. In addition, it contains a hierarchical sorting (HS) algorithm to derive a total order between transactions based on ACG.
+Nezha is the first efficient concurrency control mechanism towards DAG-based blockchains. It contians an address-based conflict graph (ACG) while incorporating address dependencies as edges to capture all conflicting transactions. Besides, it contains a hierarchical sorting (HS) algorithm to derive a total order between transactions based on ACG.
 
 This repository contains a testing tool for evaluating the performance of Nezha concurrency control and two baseline schemes: SP (serial processing) and CG (conflict graph). Note that, in the paper, we integrate Nezha into a prevailing DAG-based blockchain system OHIE, but we do not present the demo of OHIE in this repository (just for testing). We will upload a complete DAG-based blockchain demo containing Nezha transaction processing module in the future.
 
