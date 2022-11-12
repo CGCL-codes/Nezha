@@ -1,0 +1,1 @@
+When reconstructing a public key from signature, the public key will always verify the reconstructed signature. Therefore testing pubkey.Verify(tamperedData) will still pass. However comparing the reconstructed public key to the address will catch the tampering.
